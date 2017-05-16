@@ -1,0 +1,66 @@
+.oculto {
+    display: none;
+}
+
+#logo {
+    margin-left: -5px;
+    height: 80%;
+    width: 20%;
+}
+
+#esp {
+    border-left: 2px solid #0C0C00;
+    width: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.buscar {
+    width: 125px;
+}
+
+.x_title {
+    box-shadow: 0 1px 2px #000;
+    -moz-box-shadow: 0 1px 2px #000;
+    -webkit-box-shadow: 0 1px 2px #000;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    background: #BDBDBD;
+    text-align: center;
+    padding: 5px 10px 10px 10px;
+    display: block;
+    font-size: 1em;
+    height: 30px;
+    line-height: 20px !important;
+    margin-bottom: 11px;
+    text-shadow: 0.1em 0.1em 0.15em #333;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out
+}
+
+.linea {
+    border: 1px dotted #6E6E6E;
+}
+
+.table-bordered > tbody > .fil:nth-of-type(odd) {
+    background-color: #D8D8D8;
+}
+
+.table-hover>tbody>.fila:hover {
+    background-color: #848484;
+}
+
+.table-bordered {
+    color: black;
+}
+
+.table-bordered tr th {
+    color: #fff;
+    background: black;
+    border-radius: 4px;
+}
